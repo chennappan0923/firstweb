@@ -1,0 +1,517 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  .topbar {
+    background: #f7f7f7;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    cursor: pointer;
+  }
+  
+  .actions .btn-outline,
+  .actions .btn-filled {
+    margin-left: 10px;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .btn-outline {
+    background: transparent;
+    color: #1e1d1c;
+  }
+  
+  .btn-filled {
+    background: #767368;
+    color: #fff;
+    width: 100px;
+    height: 45px;
+    border-radius: 10px;
+    transition: inherit;
+}
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fbbf24;
+    padding: 60px 20px;
+    color: #fff;
+  }
+  
+  .hero-text h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 350px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border-color: none;
+  }
+  
+  .hero-image img {
+    width: 500px;
+    transition: inherit;
+    border-radius: 15px;
+    height: 300px;
+    margin-right: 100px;
+
+  }
+
+  .input-loc {
+    margin-left: 100px;
+  }
+
+  .book-btn {
+    background-color: black;
+    width: 350px;
+    border-color: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    height: 40px;
+  }
+
+  .popular-services {
+    padding: 3rem;
+    background-color: #f9f9f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .services-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    position: relative;
+  }
+  
+  .header-text {
+    max-width: 650px;
+  }
+  
+  .heading-text {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 1rem;
+  }
+  
+  .description-text {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .get-service-btn {
+    background-color: #fdbb00;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #000;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+  }
+  
+  .get-service-btn:hover {
+    background-color: #e6a800;
+  }
+  
+  .btn-text {
+    display: inline-block;
+  }
+  
+  .arrow {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .service-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid #e6e6e6;
+    padding: 2rem 0;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .icon-circle {
+    background-color: #fdbb00;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .service-icon {
+    width: 50%;
+    height: auto;
+  }
+  
+  .service-details {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .service-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #111;
+  }
+  
+  .service-description {
+    font-size: 1rem;
+    color: #444;
+    margin: 0.25rem 0;
+  }
+  
+  .service-actions {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    min-width: 280px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  
+  .view-details-btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-details-btn:hover {
+    background-color: #333;
+  }
+  
+  .service-image {
+    width: 220px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .how-to-start-section {
+    padding: 3rem 1rem;
+    text-align: center;
+    background-color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .how-to-start-header {
+    max-width: 800px;
+    margin: 0 auto 3rem;
+  }
+  
+  .how-to-start-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #111;
+  }
+  
+  .highlight-text {
+    color: #fdbb00;
+    position: relative;
+  }
+  
+  .highlight-text::after {
+    content: '';
+    position: absolute;
+    bottom: 0.1rem;
+    left: 0;
+    width: 100%;
+    height: 1.2rem;
+    background-image: url('/assets/yellow-scribble.svg'); /* Replace with your scribble image path */
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -1;
+  }
+  
+  .how-to-start-description {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.6;
+  }
+  
+  .steps-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    position: relative;
+  }
+  
+  .step-box {
+    background-color: #f9f6ef;
+    border-radius: 10px;
+    padding: 2rem 1rem 1rem;
+    width: 220px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .step-number {
+    background-color: #fdbb00;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px 6px 0 0;
+    font-size: 1.1rem;
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 60% 85%, 50% 100%, 40% 85%, 0 85%);
+  }
+  
+  .step-content {
+    margin-top: 2.5rem;
+  }
+  
+  .step-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 0.5rem;
+  }
+  
+  .step-description {
+    font-size: 0.95rem;
+    color: #444;
+  }
+  
+  .step-arrow {
+    width: 40px;
+    height: 2px;
+    background-color: #999;
+    align-self: center;
+    position: relative;
+  }
+  
+  .step-arrow::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: -4px;
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid #999;
+    border-right: 2px solid #999;
+    transform: rotate(45deg);
+  }
+
+  .footer {
+    background-color: #111;
+    color: #ccc;
+    padding: 3rem 1rem 1rem;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .footer-column {
+    flex: 1 1 200px;
+    min-width: 220px;
+  }
+  
+  .company-info .logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .logo img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  .logo-text {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fdbb00;
+  }
+  
+  .footer-column p,
+  .footer-column ul,
+  .footer-column input,
+  .footer-column button {
+    margin-top: 1rem;
+  }
+  
+  .footer-column h3 {
+    color: #fff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin: 0.4rem 0;
+  }
+  
+  .footer-column ul li a {
+    text-decoration: none;
+    color: #ccc;
+    transition: color 0.2s;
+  }
+  
+  .footer-column ul li a:hover {
+    color: #fdbb00;
+  }
+  
+  .footer a {
+    color: #ccc;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    color: #fdbb00;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 1rem;
+  }
+  
+  .social-icons a {
+    background-color: #222;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 1rem;
+    transition: background 0.3s;
+  }
+  
+  .social-icons a:hover {
+    background-color: #fdbb00;
+    color: #000;
+  }
+  
+  .newsletter input.newsletter-input {
+    width: 100%;
+    padding: 0.7rem;
+    background-color: #222;
+    border: 1px solid #333;
+    color: #fff;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+  }
+  
+  .subscribe-btn {
+    background-color: #fdbb00;
+    border: none;
+    padding: 0.7rem 1rem;
+    width: 100%;
+    border-radius: 6px;
+    font-weight: 600;
+    color: #000;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .subscribe-btn:hover {
+    background-color: #e6a800;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+  
+  .checkbox-container input {
+    margin-right: 8px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding-top: 2rem;
+    border-top: 1px solid #333;
+    font-size: 0.85rem;
+    color: #999;
+  }
+  
+  .footer-bottom a {
+    color: #fdbb00;
+    font-weight: bold;
+  }
+  
+  
