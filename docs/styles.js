@@ -7,8 +7,8 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\angular proj\website-training\ride-nexa-clone\node_modules\bootstrap\dist\css\bootstrap.min.css */"q4sD");
-module.exports = __webpack_require__(/*! D:\angular proj\website-training\ride-nexa-clone\src\styles.css */"OmL/");
+__webpack_require__(/*! D:\angular proj training\website-training\ride-nexa-clone\node_modules\bootstrap\dist\css\bootstrap.min.css */"q4sD");
+module.exports = __webpack_require__(/*! D:\angular proj training\website-training\ride-nexa-clone\src\styles.css */"OmL/");
 
 
 /***/ }),

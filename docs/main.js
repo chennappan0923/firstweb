@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\angular proj\website-training\ride-nexa-clone\src\main.ts */"zUnb");
+module.exports = __webpack_require__(/*! D:\angular proj training\website-training\ride-nexa-clone\src\main.ts */"zUnb");
 
 
 /***/ }),
